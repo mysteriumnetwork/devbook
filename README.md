@@ -11,4 +11,24 @@ However, if exceptions occur frequently, consider adjusting guidelines (by creat
 
 ## Table of contents
 
-// TODO
+* [Git](#git)
+
+## [Git](#git)
+
+### [Commit messages](#commit-messages)
+
+We use widely established conventions for idiomatic Git commit messages:
+
+- Use imperative mood in the subject line.  
+
+  A properly formed Git commit subject line should always be able to complete the following sentence:  
+  If applied, this commit will _**your subject line here**_
+- Separate subject from body with a blank line
+- Limit the subject line to a single, short sentence
+- Capitalize the subject line
+- Do not end the subject line with a period
+- Use the body to explain _what_ and _why_ vs. _how_.  
+- Wrap the body at 72 characters
+
+[Read more &#x2197;](https://chris.beams.io/posts/git-commit/)
+
