@@ -1,4 +1,4 @@
-## Preamble
+# Mysterium developer's handbook
 
 The goal of the devbook improve development efficiency. It serves 2 purposes: 
 
