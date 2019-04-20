@@ -1,0 +1,9 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+indent_style = space
+end_of_line = lf
+insert_final_newline = true
