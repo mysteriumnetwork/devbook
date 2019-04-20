@@ -1,0 +1,4 @@
+# Jekyll stuff for local previews
+_site
+Gemfile
+Gemfile.lock
