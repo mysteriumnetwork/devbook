@@ -1,6 +1,6 @@
 # Mysterium developer's handbook
 
-The goal of the devbook improve development efficiency. It serves 2 purposes: 
+The goal of the devbook is to improve development efficiency. It serves 2 purposes: 
 
 1. align developers on development/collaboration practices
 2. smoothen onboarding for the newcomers
