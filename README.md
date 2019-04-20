@@ -11,7 +11,9 @@ However, if exceptions occur frequently, consider adjusting guidelines (by creat
 
 ## Table of contents
 
-* [Git](#git)
+- [Git](#git)
+  - [Workflow](#workflow)
+  - [Commit messages](#commit-messages)
 
 ## [Git](#git)
 
