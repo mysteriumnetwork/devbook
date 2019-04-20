@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## Preamble
 
-You can use the [editor on GitHub](https://github.com/mysteriumnetwork/devbook/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The goal of the devbook improve development efficiency. It serves 2 purposes: 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1. align developers on development/collaboration practices
+2. smoothen onboarding for the newcomers
 
-### Markdown
+All practices in the devbook are meant to serve as guidelines, rather than rules.  
+There will always be exceptions to the guidelines. 
+However, if exceptions occur frequently, consider adjusting guidelines (by creating a PR) to keep them up-to-date.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Table of contents
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mysteriumnetwork/devbook/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+// TODO
