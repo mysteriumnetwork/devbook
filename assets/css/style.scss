@@ -10,5 +10,8 @@
 .main-content {
   h1, h2, h3, h3, h5, h6 {
     color: #412361;
+    a {
+        color: inherit;
+    }
   }
 }
