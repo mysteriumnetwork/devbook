@@ -77,3 +77,7 @@ We use widely established conventions for idiomatic Git commit messages:
 
 [Read more &#x2197;](https://chris.beams.io/posts/git-commit/)
 
+### Credits
+
+Inspired by:
+- [Thoughtbot guides](https://github.com/thoughtbot/guides) by thoughtbot, inc. It is distributed under the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/).
