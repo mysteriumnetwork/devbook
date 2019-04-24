@@ -14,6 +14,12 @@ However, if exceptions occur frequently, consider adjusting guidelines (by creat
 - [Code review](/code-review)
 - [Git](/git)
 
+## Contributing to devbook
+
+Everyone at Mysterium is free to contribute to the guidelines if one sees that the others would benefit from it. PRs can be merged with majority's approval.  
+
+To preview the site locally, follow [this guide](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll).
+
 ## Credits
 
 Inspired by:
