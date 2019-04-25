@@ -9,7 +9,7 @@
     - Include the issue number when applicable
     - Briefly describe the change  
 
-    Examples: `feature/610-seelog-wrapper`, `fix/tequilapi-startup`, `tk/polish`
+    Examples: `feature/610-seelog-wrapper`, `fix/tequilapi-startup`, `tk/polish-tequilapi`
 
 2. Implement the changes (series of commits)
     - It's best when commmits are clearly separated, i.e. each fix, change, refactoring, extra tests go into their own commits
