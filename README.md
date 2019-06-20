@@ -11,8 +11,8 @@ However, if exceptions occur frequently, consider adjusting guidelines (by creat
 
 ## Table of contents
 
-- [Code review](/code-review)
-- [Git](/git)
+- [Code review](code-review)
+- [Git](git)
 
 ## Contributing to devbook
 
