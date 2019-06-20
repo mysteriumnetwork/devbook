@@ -11,6 +11,7 @@ However, if exceptions occur frequently, consider adjusting guidelines (by creat
 
 ## Table of contents
 
+- [Continuous integration](ci)
 - [Code review](code-review)
 - [Git](git)
 
