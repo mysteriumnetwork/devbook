@@ -8,7 +8,7 @@ Pipeline build statuses are reported back to Github.
 
 Github:
 
-1. **IMPORTANT!** Add our team user as a collaborator (write access) to the project (to be able to create webhooks automatically)
+1. **IMPORTANT!** Add our team user as a collaborator (*admin* permission level) to the project (for Gitlab to create webhooks automatically). After initial setup is done, you may demote the permission level to *write*.
 
 Gitlab:
 
