@@ -59,3 +59,8 @@ We use widely established conventions for idiomatic Git commit messages:
 - Wrap the body at 72 characters
 
 [Read more &#x2197;](https://chris.beams.io/posts/git-commit/)
+
+## Releases
+
+For go projects, release tags follow this convention: `v[major].[minor].[patch]`: a semantic version with a `v` prefix for `gomod` to resolve versions properly.
+
