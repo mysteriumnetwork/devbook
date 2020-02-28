@@ -60,7 +60,20 @@ We use widely established conventions for idiomatic Git commit messages:
 
 [Read more &#x2197;](https://chris.beams.io/posts/git-commit/)
 
-## Releases
+## Releases process
 
-For go projects, release tags follow this convention: `v[major].[minor].[patch]`: a semantic version with a `v` prefix for `gomod` to resolve versions properly.
+In order to release new version of a software: 
+ - Create a new branch for each soon to be released version. For example if we are going to release `release/0.21`, we should create such branch.
+ - Create a pre-release with `0.21.0-rc0` tag and start testing it.
+ - When team finishes testing, release should be made from that `release/0.21` branch with a tag `0.21.0`.
+ - All future critical bugs affecting network operation should be backported to `release/0.21` branch for 30 days since its initial release.
 
+#### Motivation for such release process
+ - Improve on timely releases with a bit more confidence in quality.
+ - Ability to backport critical fixes for stable already released versions. (Currently we aim to support releases for last 30 days)
+ - Make release cycle more mainnet-like.
+ - After freezing ability to start testing without affecting natural development flow.
+ - Gain more confidence while auto-updating mysterium network of nodes.
+
+#### Tagging convention
+For go projects, release tags follow this convention: `[major].[minor].[patch]`
