@@ -14,6 +14,7 @@ However, if exceptions occur frequently, consider adjusting guidelines (by creat
 - [Continuous integration](ci)
 - [Code review](code-review)
 - [Git](git)
+- [API](api)
 
 ## Contributing to devbook
 
