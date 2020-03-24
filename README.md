@@ -15,6 +15,7 @@ However, if exceptions occur frequently, consider adjusting guidelines (by creat
 - [Code review](code-review)
 - [Git](git)
 - [API](api)
+- [Go Error handling](error-handling)
 
 ## Contributing to devbook
 
