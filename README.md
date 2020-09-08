@@ -16,6 +16,7 @@ However, if exceptions occur frequently, consider adjusting guidelines (by creat
 - [Git](git)
 - [API](api)
 - [Golang](golang)
+- [Web (React/Electron)](web)
 
 ## Contributing to devbook
 
