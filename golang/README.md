@@ -4,3 +4,4 @@
 
 - [Error handling](error-handling)
 - [Consumer interfaces](consumer-interfaces)
+- [Naming](naming)
