@@ -63,10 +63,13 @@ We use widely established conventions for idiomatic Git commit messages:
 ## Releases process
 
 In order to release new version of a software: 
- - Create a new branch for each soon to be released version. For example if we are going to release `release/0.21`, we should create such branch.
- - Create a pre-release with `0.21.0-rc0` tag and start testing it.
- - When team finishes testing, release should be made from that `release/0.21` branch with a tag `0.21.0`.
- - All future critical bugs affecting network operation should be backported to `release/0.21` branch for 30 days since its initial release.
+ 1) Decide if a release branch is required. (i.e. you should create release branch if there are commits in master branch you don't want to release)
+    - If required: create branch reflecting release version. If release version is `0.21` then branch name must be `release/0.21`.
+    - If not: continue release from master
+ 2) Create a **pre-release** in GitHub and tag appropriate branch (see 1.) with tag named `0.21.0-rc1`.
+ 3) After pipeline completes and publishes release artifacts make an internal announcement in slack to start testing pre-release.   
+ 4) When team finishes testing, release should be made from appropriate branch (see 1.) with a tag `0.21.0`.
+ 5) In case branched release all future critical bugs affecting network operation should be back-ported to `release/0.21` branch for 30 days since its initial release.
 
 #### Motivation for such release process
  - Improve on timely releases with a bit more confidence in quality.
