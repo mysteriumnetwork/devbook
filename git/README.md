@@ -2,6 +2,9 @@
 
 ## Workflow
 
+0. Plan/estimate release date of a NON RC release and notify marketing. Marketing needs time to prepare and plan announcements.
+   Ideally they would need at least 1-week notice.
+
 1. Create a feature branch  
 
     - Prefix branch name with `feature/` or `fix/` when applicable; otherwise, prefix with your initials, e.g. `tk/`
