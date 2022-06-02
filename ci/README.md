@@ -15,18 +15,19 @@ Gitlab assigns jobs to runners (workers) based on tags and their availability. W
 
 ## How to setup a Gitlab mirror for CI
 
-Github:
+### Github IMPORTANT!:
 
-1. **IMPORTANT!** Add our team user as a collaborator (**admin** permission level) to the project (for Gitlab to create webhooks automatically). After initial setup is done, you may demote permission level to **write**.
+1. Add our team user as a collaborator (**admin** permission level) to the project (for Gitlab to create webhooks automatically). After initial setup is done, you may demote permission level to **write**.
 
-Gitlab:
+### Gitlab:
 
 1. Login using team user
 2. https://gitlab.com/mysteriumnetwork → `New Project → CI/CD for external repo → Connect repositories from: Github`
 3. Find the project in `From GitHub` column. 
 4. **IMPORTANT!** In `To GitLab` column, select `Groups/mysteriumnetwork`.
 ![Import Github project](../assets/img/ci/import-github-project.png)
-5. Click `Connect`
+5. Double check to make sure you added our team (bot) user as admin to your repository on github.
+6. Click `Connect`
 
 That's all.  
 If everything went well, Gitlab will mirror updates whenever you push to any branch in Github repo.   
